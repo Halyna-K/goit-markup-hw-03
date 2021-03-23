@@ -72,6 +72,8 @@ address {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   /* background-color: aquamarine; */
@@ -134,8 +136,7 @@ address {
   color: var(--title-color);
 }
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  max-height: 80px;
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
